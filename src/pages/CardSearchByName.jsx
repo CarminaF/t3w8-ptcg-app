@@ -35,6 +35,7 @@ export default function CardSearchByName() {
             setSearchResults(responseData.data)
         }
         apiRequest();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     
